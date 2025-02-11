@@ -9,7 +9,7 @@ const billServices = [
   { name: "DTH", icon: <FaSatelliteDish style={{ color: "#800080" }} /> }, // Purple
   { name: "Water", icon: <FaTint style={{ color: "#0088ff" }} /> }, // Blue
   { name: "Gas", icon: <FaGasPump style={{ color: "#ff4500" }} /> }, // Red-Orange
-  { name: "Insurance", icon: <FaUmbrella style={{ color: "#006400" }} /> }, // Green
+  { name: "Insurances", icon: <FaUmbrella style={{ color: "#006400" }} /> }, // Green
 ];
 
 const travelServices = [
@@ -17,7 +17,7 @@ const travelServices = [
   { name: "Bus", icon: <FaBus style={{ color: "#228b22" }} />, extra: "Affordable Rides" }, // Green
   { name: "Train", icon: <FaTrain style={{ color: "#8b4513" }} /> }, // Brown
   { name: "Hotel", icon: <FaHotel style={{ color: "#4b0082" }} />, extra: "Budget-friendly Stay" }, // Indigo
-  { name: "Car Rentals", icon: <FaCar style={{ color: "#4682b4" }} />, extra: "Drive Easy Anywhere" }, // Steel Blue
+  { name: "Car Rental", icon: <FaCar style={{ color: "#4682b4" }} />, extra: "Drive Easy Anywhere" }, // Steel Blue
 ];
 
 const Services = () => {
@@ -30,7 +30,7 @@ const Services = () => {
             <p className="description">Pay your bills & recharge instantly with Justdial</p>
             <h5>Explore More</h5>
           </div>
-          <div className="icon-grid">
+          <div className="icons-grid">
             {billServices.map((item, idx) => (
               <div key={idx} className="service-item">
                 <div className="icon-box">
